@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>E.</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body id="body">
+    <div style="position: absolute; top: 0; left: 0;">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="estrellaModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="estrellaModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="estrellaModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                style="width: 100%;"
+                src=""
+                class="rounded mx-auto d-block"
+                id="imagenModal"
+                alt="imagen de la estrella"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hidder"></div>
+    <!-- partial:index.partial.html -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <div id="particles-js"></div>
+    <div class="starsbgcontainer">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+    </div>
+
+    <div id="title">
+      <!-- Modal -->
+
+      <span id="ti" class="title">Eliana</span>
+      <br />
+      <span id="subti" class="subtitle">UN CIELO ESTRELLADO A TU NOMBRE</span>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+
+    <iframe src="./aud/2.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
+    
+    <audio autoplay loop id="playAudio">
+      <source src="./aud/2.mp3">
+  </audio>
+
+  </script>
+    <!-- partial -->
+
+    <script src="estrellas.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
