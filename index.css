@@ -4,7 +4,7 @@ body {
   height: 100vh;
   max-height: 100vh;
   overflow: hidden;
-  background: radial-gradient(ellipse at bottom, #131e27 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #0f181f 0%, #06070a 100%);
   color: white;
 }
 
@@ -871,8 +871,8 @@ body {
 }
 
 #stars2 {
-  width: 2px;
-  height: 2px;
+  width: 2.3px;
+  height: 2.3px;
   background: transparent;
   box-shadow: 1907px 1575px rgba(255, 255, 255, 0.5),
     893px 268px rgba(255, 255, 255, 0.5), 1819px 666px rgba(255, 255, 255, 0.5),
@@ -1005,8 +1005,8 @@ body {
   content: " ";
   position: absolute;
   top: 2000px;
-  width: 2px;
-  height: 2px;
+  width: 2.3px;
+  height: 2.3px;
   background: transparent;
   box-shadow: 1907px 1575px rgba(255, 255, 255, 0.5),
     893px 268px rgba(255, 255, 255, 0.5), 1819px 666px rgba(255, 255, 255, 0.5),
