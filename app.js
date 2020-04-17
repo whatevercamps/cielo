@@ -102,7 +102,7 @@ estrellas &&
             },
             move: {
               enable: true,
-              speed: 0.1,
+              speed: 0.2,
               direction: "top",
               random: false,
               straight: false,

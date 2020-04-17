@@ -25,7 +25,7 @@ var estrellas = [
   },
   {
     name: "La mejor descripción de ella misma",
-    img: "./img/estrella6.jpg",
+    img: "./img/estrella6.PNG",
   },
   {
     name: "Le gustan las matemáticas, la física y la química.",
